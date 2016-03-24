@@ -11,5 +11,8 @@
             "name": "Ljubo Čanić",
             "email": "ljubo@mentat-labs.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {"Marketing\\": "src/Marketing/"}
+    }
 }
