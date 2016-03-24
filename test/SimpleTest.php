@@ -10,4 +10,10 @@ class SimpleTest extends PHPUnit_Framework_TestCase {
         $this->assertFalse(true, 'Should be false!');
     }
 
+    /**
+     * @test
+     */
+    public function withAnnotation() {
+        $this->assertFalse(true, 'test with annotation fails!');
+    }
 }
